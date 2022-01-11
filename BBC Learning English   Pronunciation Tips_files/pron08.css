@@ -1,0 +1,169 @@
+/*body {
+  font: .8em/1.8em verdana, arial, sans-serif;
+  background-color: #FFFFFF;
+  color: #000000;
+
+}*/
+
+#header {
+
+  float: left;
+  width: 100%;
+  border-bottom: 1px solid #3E75AD;
+  margin-bottom:20px
+  
+}
+
+#header ul {
+  margin: 0;
+  padding: 10px 0 0 0;
+  list-style: none;
+}
+
+#header li {
+  float: left;
+  background-image: url("/worldservice/learningenglish/grammar/pron/images/tab_active_left.gif");
+  background-color:#B3EAFC;
+  background-repeat: no-repeat;
+  margin: 0 1px 0 0;
+  padding: 0px 0px 0 8px;
+ 
+}
+
+#header a {
+  float: left;
+  display: block;
+  background-image: url("/worldservice/learningenglish/grammar/pron/images/tab_active_right.gif");
+  background-repeat: no-repeat;
+  background-position: right top;
+  padding: 8px 8px 8px 0px;
+  text-decoration: none;
+  font-weight: bold;
+  color: #3E75AD;
+  
+}
+
+#header a:hover {
+   color: #ffffff;
+   text-decoration:underline
+}
+
+
+
+#intro #header li.intro,
+#sounds #header li.sounds,
+#features #header li.features,
+#quizzes #header li.quizzes,
+#progs #header li.progs,
+.titlebox
+
+ {
+    background-image: url("/worldservice/learningenglish/grammar/pron/images/tab_left.gif");
+}
+#intro #header li.intro a,
+#sounds #header li.sounds a,
+#features #header li.features a,
+#quizzes #header li.quizzes a,
+#progs #header li.progs a
+ {
+  background-image: url("/worldservice/learningenglish/grammar/pron/images/tab_right.gif");
+  background-color: transparent;
+  color:#FFFFFF;
+ }
+ 
+ .selected, .titlebox{
+ float: left;
+  display: block;
+  padding: 8px 8px 8px 0px;
+  text-decoration: none;
+  font-weight: bold;
+  color: #FFFFFF;
+   background-image: url("/worldservice/learningenglish/grammar/pron/images/tab_right.gif");
+    background-repeat: no-repeat;
+  background-position: right top;
+  
+    
+  }
+
+.border {height:1em; background:#3E75AD; clear:left; padding-bottom:0px; margin-bottom:0px; padding-left:10px; color:#FFFFFF}
+.border ul {list-style:none; padding-left:0px; margin-left:0px; margin-top:0px;}
+.border ul a, border ul a:visited {text-decoration:none; color:#FFFFCC}
+.border ul a:hover {  color:#FFFFCC; text-decoration:underline}
+.border li {float:left; margin-right:10px}
+
+.titlebox {width: 203px; padding: 4px 0px 4px 4px;
+ background-image: url("/worldservice/learningenglish/grammar/pron/images/tab_right.gif");
+ color:#FFFFFF}
+
+.titleboxtext {color:#FFFFFF}
+.contentbox, #soundlinks, .bordercontentbox {clear:both; background-color:#F2F2F2; border:1px solid #03BDFE; padding-right:10px;}
+#sounds .contentbox {border:none; background-color:#FFFFFF}
+.contentboxtext { font-size: 12px; line-height:16px}
+
+#navigation, #navigation .titlebox  {
+ /* width: 203px; */
+  font-size:12px;
+}
+
+html > body #navigation .titlebox {width:199px}
+
+#navigation ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  clear:both;
+}
+#navigation ul:hover {
+  background-color: #385673;
+  color: #FFFFFF;
+}
+
+
+#navigation li {
+  border-bottom: 1px solid #B3EAFC;
+}
+
+
+
+#navigation li a:link, #navigation li a:visited, .subsection {
+  display: block;
+padding: 4px 0 4px 6px;
+  border-left: 1px solid #385673;
+  border-right: 1px solid #385673;
+  background-color: #3E75AD;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+* html #navigation li a {
+  width: 100%;
+}
+
+#navigation li a:hover {
+  background-color: #385673;
+  color: #FFFFFF;
+}
+
+
+#navigation ul li {
+  border-bottom: 1px solid #385673;
+  margin-bottom:0px;
+}
+
+#navigation ul a:link, #navigation ul a:visited, .subsection {
+  background-color: #B3EAFC;
+  color: #385673;
+}
+.subsection {color:#000000; font-weight: bold}
+.subsection_h_nav {color:#CCCCCC}
+.unit_highlight {color:#FF0000;
+font-weight:normal}
+
+
+#navigation ul a:hover {
+  background-color: #385673;
+  color: #FFFFFF;
+}
+
+.dload ul {list-style:none; margin-left:0; padding-left:0}
+.dload li {margin-bottom:10px}

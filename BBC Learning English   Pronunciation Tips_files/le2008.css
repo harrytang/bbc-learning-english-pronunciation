@@ -1,0 +1,191 @@
+/*CSS Document*/
+@import "http://www.bbc.co.uk/iftoolbar/styles/toolbar.css";
+@import "http://www.bbc.co.uk/iftoolbar/styles/banner.css";
+body, td {font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; color: #000000; margin:0;}
+a {text-decoration:none; color:#000099;} 
+a:hover {text-decoration:underline; color:#6666CC;}
+#contentarea {	width: 760px; margin-top: 3px; }
+#lhcol { width: 121px;	background-color:#EEE; float:left;	text-align: right;	padding-bottom: 5px	}
+#twocolcontent {width: 629px;float: right;}
+#centrecolumn {	width: 416px;float: left; }
+#rhcol {width: 203px; float:right; }
+#crumb {  
+background-image: url(/worldservice/learningenglish/images/furniture/crumb_bg.gif);
+background-color: #CCCCCC;
+width:629px;
+margin-bottom: 5px;
+font-size:10px;
+padding-top: 2px;
+padding-bottom: 2px;
+}
+.crumblink {  
+margin-left: 13px;
+}
+.pagetitle {
+	font-size: 18px;
+	font-weight: bold;
+	margin-top: 2px;
+	margin-bottom: 5px;
+	
+	}
+.blurblatest { margin-bottom: 10px}
+
+
+/*left hand navigation*/
+#menu {position:relative}
+.lelhnavtoptitle, .currentsectiontitle, .currentsectiontitlenolink {
+	font-weight: bold;
+	background-image: url(/worldservice/learningenglish/images/furniture/lnav_section_title_bg.gif);
+	padding:2px 7px 2px 2px; }
+
+.currentsectiontitle { padding:2px 2px 2px 2px; margin-top:3px }
+	
+.currentsectiontitlenolink {
+	background-image: url(/worldservice/learningenglish/images/furniture/lnav_section_title_bg.gif);
+	margin-top:3px}
+	
+.lnavyouarehere, .lnavyouareherelink {
+	font-weight: bold;
+	background-color: #999;
+	background-image: url(/worldservice/learningenglish/images/furniture/lnav_section_sub_bg.gif);
+	padding:0px 7px 0px 2px;}
+	
+.lnavyouareherelink{ padding:0px 3px 0px 2px;}
+	
+.othersectionlinks {padding-bottom:0px; margin-bottom: 0px; }
+.othersectionlinks ul a {	font-weight: bold;	 display: block}
+.othersectionlinks li, .relatedsitelinks li {padding-top: 3px; padding-bottom: 3px; margin-right: 5px;}
+.currentsectionlinks {padding-bottom:0px; margin-bottom: 0px; background-color:#ccc; }
+.currentsectionlinks ul, .relatedsitelinks ul, .othersectionlinks ul, .lelhnavtoplink ul  { list-style:none; padding-left:0px; margin-left:0px; padding-top:0px; padding-bottom:5px; margin-top:0px; margin-bottom: 0px}
+.othersectionlinks ul { padding-bottom:0px;}
+.currentsectionlinks ul a {	display: block; margin-right: 5px; }
+.currentsectionlinks li {padding-top: 3px; padding-bottom: 3px; }
+.relatedsitelinks {margin-bottom: 0px; font-size: 11px; padding-bottom:5px}
+.relatedsitelinks ul, .lelhnavtoplink ul  { padding-bottom:0px;}
+.relatedsitelinks ul a {display: block; }
+.relatedlinktext {font-size:10px; color: #999999;font-weight:bold; text-align: right; margin-right: 5px;padding-bottom: 3px;}
+
+.lelhnavtoplink {padding-bottom:3px;}
+.lelhnavtoplink ul a {font-weight: bold;}
+.lelhnavtoplink li {padding-top: 0px; padding-bottom: 0px; margin-right: 5px;}
+
+/* Top image and puff */
+#top_img {margin-bottom:10px; width:416px; height:95px}
+#top_puff {margin-bottom:10px}
+
+
+.promolinktd li {margin-bottom: -5px; }
+.promolinktd ul a {display:block; padding-left:10px; padding-top:2px; background: url('http://www.bbc.co.uk/worldservice/images/furniture/ws_arrow.gif') no-repeat 0px 5px; 
+	text-align:left
+	}
+.promolinktd ul {list-style:none; padding-left:0px; margin-left:0px; margin-bottom:0px }	
+.promolinktd {padding-top:5px; padding-bottom:12px}
+
+html > body .promolinktd li {margin-bottom: 5px}
+
+
+/* coloured content area promo boxes */
+.cpromolinktd {padding-top:5px; padding-bottom:10px; }
+.cpromolinktd ul { list-style-image: url(http://www.bbc.co.uk/worldservice/images/furniture/ws_arrow.gif); margin-left:20px; padding-bottom:0px; margin-bottom:0px; margin-top: 5px; padding-top:0px}
+.cpromolinktd li {margin-bottom:3px; padding-right: 4px}
+
+html > body .cpromolinktd ul {padding-left:9px; margin-left:9px}
+
+.chevron {	FONT-SIZE: 9px; FONT-WEIGHT: bold;}
+
+.promolink {display: block;
+padding-left:10px; 
+padding-top:2px; 
+background: url(http://www.bbc.co.uk/worldservice/images/furniture/ws_arrow.gif) no-repeat 0px 5px; 
+	text-align:left
+	}
+.promoslug {padding-left:10px; }
+.promotitle {padding-top:2px; padding-bottom:2px; padding-left:4px; color:#FFFFFF; font-weight:bold; }
+.promotitle a,  .promotitle a:hover {color:#FFFFFF}
+
+/*download links*/
+.pdflink, .mp3link, .mp4link, .watchvideolink 
+{
+font-weight:bold; 
+padding-left:20px; 
+padding-bottom:3px;
+padding-top:2px;
+background: url('http://www.bbc.co.uk/worldservice/learningenglish/images/furniture/ws_download_pdf.gif') no-repeat 0px 0px;
+} 
+
+.mp3link 
+{
+padding-left:30px; 
+background: url('http://www.bbc.co.uk/worldservice/learningenglish/images/furniture/ws_download_mp3.gif') no-repeat 0px 0px;
+}
+
+.mp4link 
+{
+padding-left:30px; 
+background: url('http://www.bbc.co.uk/worldservice/learningenglish/images/furniture/ws_download_mp4.gif') no-repeat 0px 0px;
+}
+
+.watchvideolink 
+{
+padding-left:60px; 
+background: url('http://newsimg.bbc.co.uk/nol/shared/img/v3/icons/video_text.gif') no-repeat 0px 4px;
+margin-bottom:15px;
+
+}
+
+/* NEW in Learning English box */
+#latest .titlebox {background-color:#000000}
+#latest ul a {font-weight:bold}
+
+/* For hubpages */
+.promoblock {width:416px; }
+.promoleftcol {width:203px; float:left;}
+.promorightcol {width:203px; float:right}
+.promoblock ul { list-style:none; padding:0px; margin:0px; padding-top:3px}
+.promoblock ul a { 
+display:block;
+padding-left:10px; 
+padding-top:2px; 
+background: url('http://www.bbc.co.uk/worldservice/images/furniture/ws_arrow.gif') no-repeat 0px 5px; 
+}
+
+.promoblock li {padding-top:0px; padding-bottom:3px; margin-top:0px; margin-bottom:2px}
+
+html > body .promoblock ul a {padding-left:10px; margin-left:2px;}
+
+.lelinkarrow, .blurblatest a
+{
+font-weight:normal; 
+padding-left:10px; 
+padding-bottom:3px;
+padding-top:2px; 
+background: url('http://www.bbc.co.uk/worldservice/images/furniture/ws_arrow.gif') no-repeat 0px 5px; 
+
+}
+
+/*for boxes with border and solid colour titles that reach the width of the div. Note add required colours in head of actual pages*/
+.titlebox {
+/*background-color: add in head*/
+margin-top: 10px;
+padding-top:2px;
+padding-bottom:2px;
+text-indent: 4px;
+ 	}
+
+.titleboxtext {
+font-weight: bold;
+color: #FFFFFF;
+/*background-color: add in head*/
+text-align:left
+	}
+.titlebox a, .titlebox a:hover {color:#FFFFFF}
+.contentbox {border: 1px solid /*#57a9ef add color in head*/}
+.contentboxtext {padding:4px;}
+.contentbox ul {list-style:none; padding:0px; margin:0px;}
+.contentbox li {padding-bottom: 8px}
+
+.widecontent {
+	width: 629px;
+	float: left;
+
+}

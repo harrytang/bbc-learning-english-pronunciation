@@ -1,0 +1,153 @@
+/* CSS for left hand navigation of pre TC2 pages */
+#lhcol {background-color:#fff; text-align:left; margin:0px; padding:0px; margin-right:10px}
+#menu {position:relative; margin-top:0px; margin-bottom:0px; background-color: #f5f5f5; text-align:left;}
+#menu ul {list-style:none; margin:0px; padding-left:0px}
+#menu li {border: 1px solid #FFFFFF}
+#menu a,
+#menu a:link,
+#menu a:visited,
+#menu a:hover,
+#menu a:focus,
+#a:active,
+.related_title {
+	text-decoration: none;
+	font-weight: bold;
+	display:block;
+	/*	width: 106px; */
+	padding:3px 5px 4px 5px; 
+}	
+
+#menu a,
+#menu a:link,
+#menu a:visited {color: #000}
+#menu a:hover,
+#menu a:focus,
+.related_title {color: #666}
+#a:active {color: #000}
+
+#menu li .on {
+	border-right-width: 5px;
+	border-right-style: solid;
+	
+}
+#menu h3 {
+	margin: 0;
+	padding: 0;
+	font-size: 1em;
+}
+
+/* Homepage */
+.nav-home li {
+	background-color: #dadada;
+	border-top-color: #b5b5b5;
+	
+	}
+.nav-home h3,
+.nav-home .on {
+	background-color: #b5b5b5;
+	border-right-color: #666666;	
+}
+
+/* General & business */
+.nav-general li {
+	background-color: #e6d3d3;
+	border-top-color: #cb9d9d;
+}
+.nav-general h3,
+.nav-general .on {
+	background-color: #cb9d9d;
+	border-right: #c12323 solid 5px;
+}
+
+/* Grammar, vocabulary & pronunciation */
+.nav-language li {
+	background-color: #000000;
+	border-top-color: #9fc89f;
+	
+	
+}
+.nav-language h3, 
+.nav-language .on {
+	background-color: #9fc89f;
+	border-right:#43a242 solid 5px
+}
+
+/* Quizzes */
+.nav-quizzes li {
+	background-color: #e6d3e0;
+	border-top-color: #c89fba;
+}
+.nav-quizzes h3, 
+.nav-quizzes .on {
+	background-color: #c89fba;
+	border-right: #a24281 solid 5px;
+}
+
+/* Flatmates */
+.nav-flatmates li {
+	background-color: #b995cb;
+	border-top: 1px solid #ba9fc8;	
+}
+.nav-flatmates h3,
+.nav-flatmates .on {
+	background-color: #ba9fc8;
+	border-right: #8142a2 solid 5px; 
+}
+
+/* Community */
+.nav-community li {
+	background-color: #e6e0d3;
+	border-top-color: #cbbb9d;
+}
+.nav-community h3, 
+.nav-community .on {
+	background-color: #cbbb9d;
+	border-right: #c18b23 solid 5px;
+}
+
+/* For teachers */
+.nav-teach li {
+	background-color: #d3d8e6;
+	border-top-color: #9fa9c8;
+}
+.nav-teach h3, 
+.nav-teach .on {
+	background-color: #9fa9c8;
+	border-right: #425aa2 solid 5px;
+}
+
+/* Specials */
+.nav-specials li {
+	background-color: #e5e6d3;
+	border-right-color: #c5c89f;		
+}
+.nav-specials h3,
+.nav-specials .on {
+	background-color: #c5c89f;
+	border-right: #9ca242 solid 5px;	
+}
+
+/* About Us */
+.nav-aboutus li {
+	background-color: #d3e6e0;
+	border-top-color: #9fc8ba;
+}
+.nav-aboutus h3, 
+.nav-aboutus .on {
+	background-color: #9fc8ba;
+	border-right: #42a281 solid 5px;
+}
+
+/* Downloads */
+.nav-downloads li {
+	background-color: #d3e6e0;
+	border-top-color: #9fc8ba;	
+}
+.nav-downloads h3,
+.nav-downloads .on {
+	background-color: #9fc8ba;
+	border-right: #42a281 solid 5px;	
+}
+
+/*  Rounded corner for last menu item  */
+li.nav-end {background: transparent url(/worldservice/learningenglish/images/f/nav/local/corner_mask_botright_13x13.gif) no-repeat bottom right; height:2em}
